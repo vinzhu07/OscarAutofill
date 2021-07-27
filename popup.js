@@ -45,28 +45,36 @@ window.onload = function () {
 
 function loadCRN() {
   getStorageKeyValue("CRN1", function (key) {
-    document.getElementById("one").value = key;
+    if (key!=null) {
+    document.getElementById("one").value = key;}
   });
   getStorageKeyValue("CRN2", function (key) {
-    document.getElementById("two").value = key;
+    if (key!=null) {
+    document.getElementById("two").value = key;}
   });
   getStorageKeyValue("CRN3", function (key) {
-    document.getElementById("three").value = key;
+    if (key!=null) {
+    document.getElementById("three").value = key;}
   });
   getStorageKeyValue("CRN4", function (key) {
-    document.getElementById("four").value = key;
+    if (key!=null) {
+    document.getElementById("four").value = key;}
   });
   getStorageKeyValue("CRN5", function (key) {
-    document.getElementById("five").value = key;
+    if (key!=null) {
+    document.getElementById("five").value = key;}
   });
   getStorageKeyValue("CRN6", function (key) {
-    document.getElementById("six").value = key;
+    if (key!=null) {
+    document.getElementById("six").value = key;}
   });
   getStorageKeyValue("CRN7", function (key) {
-    document.getElementById("seven").value = key;
+    if (key!=null) {
+    document.getElementById("seven").value = key;}
   });
   getStorageKeyValue("CRN8", function (key) {
-    document.getElementById("eight").value = key;
+    if (key!=null) {
+    document.getElementById("eight").value = key;}
   });
 
 }
@@ -135,29 +143,37 @@ function fill() {
   }
 
   getStorageKeyValue("CRN1", function (key) {
-    document.getElementById("crn_id1").value = key;
+    if (key!=null) {
+    document.getElementById("crn_id1").value = key;}
   });
 
   getStorageKeyValue("CRN2", function (key) {
-    document.getElementById("crn_id2").value = key;
+    if (key!=null) {
+    document.getElementById("crn_id2").value = key;}
   });
   getStorageKeyValue("CRN3", function (key) {
-    document.getElementById("crn_id3").value = key;
+    if (key!=null) {
+    document.getElementById("crn_id3").value = key;}
   });
   getStorageKeyValue("CRN4", function (key) {
-    document.getElementById("crn_id4").value = key;
+    if (key!=null) {
+    document.getElementById("crn_id4").value = key;}
   });
   getStorageKeyValue("CRN5", function (key) {
-    document.getElementById("crn_id5").value = key;
+    if (key!=null) {
+    document.getElementById("crn_id5").value = key;}
   });
   getStorageKeyValue("CRN6", function (key) {
-    document.getElementById("crn_id6").value = key;
+    if (key!=null) {
+    document.getElementById("crn_id6").value = key;}
   });
   getStorageKeyValue("CRN7", function (key) {
-    document.getElementById("crn_id7").value = key;
+    if (key!=null) {
+    document.getElementById("crn_id7").value = key;}
   });
   getStorageKeyValue("CRN8", function (key) {
-    document.getElementById("crn_id8").value = key;
+    if (key!=null) {
+    document.getElementById("crn_id8").value = key;}
   });
 
   //document.getElementById("crn_id1").value = 1;
